@@ -17,7 +17,7 @@ import java.awt.Color;
 	          } else {
 	              xPos = Pong.WINDOW_WIDTH - 20 - DISTANCE_FROM_EDGE - getWidth();
 	          }
-	          setInitialPosition(xPos, Pong.WINDOW_HEIGHT  - 325 - (getHeight() /2));
+	          setInitialPosition(xPos, Pong.WINDOW_HEIGHT  - 320 - (getHeight() /2));
 	          resetToInitialPosition();
 	      }
 	 }

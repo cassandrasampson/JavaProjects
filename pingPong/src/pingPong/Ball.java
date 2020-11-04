@@ -13,8 +13,8 @@ public class Ball extends Sprite {
        setInitialPosition(Pong.WINDOW_WIDTH / 2 - (getWidth() - 5), Pong.WINDOW_HEIGHT /2 - (getHeight() + 5));
        resetToInitialPosition();
    }
-}
 
+}
 
 
 

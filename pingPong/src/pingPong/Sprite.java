@@ -18,6 +18,7 @@
 	    public int getHeight() { return height; }
 	    public Color getColour() { return colour; }
 
+
 	    public void setXPosition(int newX) {
 	        xPosition = newX;
 	    }
@@ -76,6 +77,11 @@
 	    public Rectangle getRectangle() {
 	        return new Rectangle(getXPosition(), getYPosition(), getWidth(), getHeight());
 	    }
+	    
+	    
+	    
+	    
+	    
 	}
 
 
